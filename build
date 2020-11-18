@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+docker build -t lispmachine/python-mapnik:3.0.16 .
+docker push lispmachine/python-mapnik:3.0.16
